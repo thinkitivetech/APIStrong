@@ -145,6 +145,7 @@ public class NewAPIPage extends TestBase {
 		appLibrary.clickElement(runapi);
 		appLibrary.clickElement(Home);
 		appLibrary.findElement(statuscode);
+		System.out.println("API is created and ran passed");
 		return new importPage(appLibrary);
 		
 	
@@ -163,6 +164,7 @@ public class NewAPIPage extends TestBase {
 		Thread.sleep(2000);
 
 		appLibrary.findElement(nodata);
+		
 
 		return new importPage(appLibrary);
 
