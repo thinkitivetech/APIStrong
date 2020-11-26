@@ -45,6 +45,16 @@ import jxl.read.biff.BiffException;
 
 public class AppLibrary {
 
+	public static String txtRegEmail = "txtRegEmail";
+	public static String txtRegPassword = "txtRegPassword";
+	public static String txtConfirmPassword = "txtConfirmPassword";
+	public static String txtCompany = "txtCompany";
+	public static String regklogin="kc-login";
+	public static String Skip="//a[text()='Skip']";
+
+	public static String reg = "https://dev.apistrong.com/Account/Register";
+
+	
 	public final long GLOBALTIMEOUT = 75;
 	private WebDriver driver;
 	private static Configuration config;
@@ -67,6 +77,34 @@ public class AppLibrary {
 		return config;
 	}
 
+	
+	public void Register()
+	{
+		int num=(int) Math.ceil(Math.random()*10000);
+		String email="qa"+num+"@mailinator.com";
+		driver.get(reg);
+		
+		driver.findElement(By.id(txtRegEmail)).sendKeys(email);
+		driver.findElement(By.id(txtRegPassword)).sendKeys("test12");
+		driver.findElement(By.id(txtConfirmPassword)).sendKeys("test12");
+		driver.findElement(By.id(txtCompany)).sendKeys("qa"+num);
+		driver.findElement(By.id(regklogin)).click();
+		driver.findElement(By.xpath(Skip)).click();
+		System.out.println(txtRegEmail);
+
+		
+		}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public WebDriver getDriverInstance() throws MalformedURLException {
 		DesiredCapabilities caps = new DesiredCapabilities();
 		String browserVersion, os, browserStackOSVersion, remoteGridUrl, environment;
@@ -218,8 +256,8 @@ public class AppLibrary {
 	}
 
 	public void closeBrowser() {
-		if (driver != null)
-			driver.quit();
+		//if (driver != null)
+		//	driver.quit();
 	}
 
 	public By getLocatorBy(String locator) {
@@ -461,14 +499,14 @@ public class AppLibrary {
 		Reporter.log(message, true);
 	}
 
-	public void getScreenshot(String name) throws IOException {
+	/*public void getScreenshot(String name) throws IOException {
 		driver = getCurrentDriverInstance();
 		String path = "screenshots/" + name;
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File(path));
 		autoLogger("screenshot at :" + path);
 		autoLogger("screenshot for " + name + " available at :" + path);
-	}
+	}*/
 
 	public String[][] readExcel(String excelFilePath, int sheetNo) throws BiffException, IOException {
 		File file = new File(excelFilePath);

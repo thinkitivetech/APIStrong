@@ -106,7 +106,7 @@ public class TestBase {
 	}
 
 	@AfterMethod
-	public void checkAlerts(ITestResult result) throws Exception {
+	/*public void checkAlerts(ITestResult result) throws Exception {
 		if (result.getStatus() == ITestResult.FAILURE) {
 			try {
 				String screenshotName = result.getName() + "_" + appLibrary.browser + "_"
@@ -157,7 +157,7 @@ public class TestBase {
 		}
 		
 		appLibrary.closeBrowser();
-	}
+	}*/
 
 	@AfterClass(alwaysRun = true)
 	public void quitBrowser() {
