@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[url:https://dev.apistrong.com/]]>
+    </line>
+    <line>
+      <![CDATA[browserName:chrome]]>
+    </line>
+    <line>
+      <![CDATA[driverAgent:chromedriver]]>
+    </line>
+    <line>
+      <![CDATA[executionEnvironment:local]]>
+    </line>
+    <line>
+      <![CDATA[browserStackUserName:null]]>
+    </line>
+    <line>
+      <![CDATA[browserStackAuthKey:null]]>
+    </line>
+    <line>
+      <![CDATA[browserStackBrowserVersion:null]]>
+    </line>
+    <line>
+      <![CDATA[browserStackOSVersion:null]]>
+    </line>
+    <line>
+      <![CDATA[os:null]]>
+    </line>
+    <line>
+      <![CDATA[outputPath:output]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:txtEmail]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:txtEmail]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:txtPassword]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:txtPassword]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:kc-login]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:kc-login]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:btnImport]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:btnImport]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:UploadFolderFiles]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:UploadFolderFiles]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:ProjectMenu]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:ProjectMenu]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:ProjectMenu]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:ProjectMenu]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:ProjectMenu]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:ProjectMenu]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:ProjectMenu]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:ProjectMenu]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: xpath://a[text()='CollectionForTesting']]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:xpath://a[text()='CollectionForTesting']]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24738" started-at="2020-11-26T14:43:51Z" finished-at="2020-11-26T14:44:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24738" started-at="2020-11-26T14:43:51Z" finished-at="2020-11-26T14:44:15Z">
+      <class name="com.db.Regression.importTest">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.db.Regression.importTest@52525845]" name="cleanUp" is-config="true" duration-ms="13" started-at="2020-11-26T20:13:51Z" finished-at="2020-11-26T20:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.db.Regression.importTest@52525845]" name="setUp" is-config="true" duration-ms="5042" started-at="2020-11-26T20:13:51Z" finished-at="2020-11-26T20:13:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4612b856]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.Regression.importTest@52525845]" name="setUp" is-config="true" duration-ms="11" started-at="2020-11-26T20:13:56Z" finished-at="2020-11-26T20:13:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[url:https://dev.apistrong.com/]]>
+            </line>
+            <line>
+              <![CDATA[browserName:chrome]]>
+            </line>
+            <line>
+              <![CDATA[driverAgent:chromedriver]]>
+            </line>
+            <line>
+              <![CDATA[executionEnvironment:local]]>
+            </line>
+            <line>
+              <![CDATA[browserStackUserName:null]]>
+            </line>
+            <line>
+              <![CDATA[browserStackAuthKey:null]]>
+            </line>
+            <line>
+              <![CDATA[browserStackBrowserVersion:null]]>
+            </line>
+            <line>
+              <![CDATA[browserStackOSVersion:null]]>
+            </line>
+            <line>
+              <![CDATA[os:null]]>
+            </line>
+            <line>
+              <![CDATA[outputPath:output]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="importTest()[pri:0, instance:com.db.Regression.importTest@52525845]" name="importTest" duration-ms="19668" started-at="2020-11-26T20:13:56Z" finished-at="2020-11-26T20:14:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Finding element using: id:txtEmail]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:txtEmail]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:txtPassword]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:txtPassword]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:kc-login]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:kc-login]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:btnImport]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:btnImport]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:UploadFolderFiles]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:UploadFolderFiles]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:ProjectMenu]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:ProjectMenu]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:ProjectMenu]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:ProjectMenu]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:ProjectMenu]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:ProjectMenu]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:ProjectMenu]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:ProjectMenu]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: xpath://a[text()='CollectionForTesting']]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:xpath://a[text()='CollectionForTesting']]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- importTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.db.Regression.importTest@52525845]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2020-11-26T20:14:15Z" finished-at="2020-11-26T20:14:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.db.Regression.importTest@52525845]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2020-11-26T20:14:15Z" finished-at="2020-11-26T20:14:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.db.Regression.importTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

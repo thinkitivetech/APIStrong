@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" thread-count="1"
+	data-provider-thread-count="1">
+
+	<test name="SampleTest">
+		<classes>
+			<class name="com.db.Regression.SampleTest" />
+		</classes>
+	</test>
+
+	<test name="SampleTestParameterized">
+		<classes>
+			<class name="com.db.Regression.SampleTestPrameterized" />
+		</classes>
+	</test>
+
+</suite>
