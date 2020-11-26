@@ -23,7 +23,7 @@ public class LoginTest extends TestBase {
 		appLibrary.launchApp();
 		
 		NewAPIPage  np = new LoginPage(appLibrary).login("test24nov@mailinator.com", "test12");
-
+		NewAPIPage  np1 = new LoginPage(appLibrary).verification();
 	}
 
 

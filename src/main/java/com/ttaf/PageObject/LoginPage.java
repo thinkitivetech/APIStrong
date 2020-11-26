@@ -8,6 +8,9 @@ public class LoginPage {
 	public static String txtEmail = "id:txtEmail";
 	public static String txtPassword = "id:txtPassword";
 	public static String login = "id:kc-login";
+	 public static String btnImport="id:btnImport";
+	 public static String ProjectMenu="id:ProjectMenu";
+	
 
 	AppLibrary appLibrary;
 
@@ -27,6 +30,17 @@ public class LoginPage {
 
 	}
 	
+	public NewAPIPage verification() throws Exception 
+	{
+		appLibrary.findElement(btnImport);
+		
+		appLibrary.findElement(ProjectMenu);
+		System.out.println("Login successful");
+		
+		return new NewAPIPage(appLibrary);
+		
+	}
+
 
 
 	
