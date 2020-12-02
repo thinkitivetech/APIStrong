@@ -82,6 +82,8 @@ public class AppLibrary {
 	{
 		int num=(int) Math.ceil(Math.random()*10000);
 		String email="qa"+num+"@mailinator.com";
+		//qa500@mailinator.com
+		
 		driver.get(reg);
 		
 		driver.findElement(By.id(txtRegEmail)).sendKeys(email);
@@ -678,6 +680,11 @@ public class AppLibrary {
 		}
 
 		return inputData;
+	}
+
+	public Object navigate() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

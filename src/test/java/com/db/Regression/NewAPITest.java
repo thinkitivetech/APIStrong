@@ -23,11 +23,18 @@ public class NewAPITest extends TestBase{
 		appLibrary.Register();
 		
 		importPage  np = new NewAPIPage(appLibrary).GETAPI();
+		Thread.sleep(3000);
+
 		importPage  np1 = new NewAPIPage(appLibrary).POSTAPI();
-		importPage  np2 = new NewAPIPage(appLibrary).PUTAPI();
-		importPage  np3 = new NewAPIPage(appLibrary).DELAPI();
-		
 		Thread.sleep(2000);
+
+		importPage  np2 = new NewAPIPage(appLibrary).PUTAPI();
+		Thread.sleep(2000);
+
+		importPage  np3 = new NewAPIPage(appLibrary).DELAPI();
+		Thread.sleep(2000);
+
+		
 		importPage  np4 = new NewAPIPage(appLibrary).RunAPI();
 		//importPage  np2 = new NewAPIPage(appLibrary).DeleteApi();
 

@@ -82,6 +82,7 @@ public class NewAPIPage extends TestBase {
 		Thread.sleep(3000);
 
 		appLibrary.enterText(urlText, POSTAPIUrl);
+		Thread.sleep(2000);
 
 		appLibrary.clickElement(saveapi);
 		Thread.sleep(2000);
@@ -144,6 +145,9 @@ public class NewAPIPage extends TestBase {
 		appLibrary.findElement("xpath://i[@class='http-method-tag' and text()='GET']").click();;
 		appLibrary.clickElement(runapi);
 		appLibrary.clickElement(Home);
+		Thread.sleep(2000);
+
+
 		appLibrary.findElement(statuscode);
 		System.out.println("API is created and ran passed");
 		return new importPage(appLibrary);

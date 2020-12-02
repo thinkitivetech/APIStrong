@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.db.Regression.importTest" hash-for-method="importTest">importTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.db.Regression.NewAPITest" hash-for-method="NewAPITest">NewAPITest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +120,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.db.Regression.importTest</span>
+              <span class="class-name">com.db.Regression.NewAPITest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="importTest">
-                  </a> <!-- importTest -->
-                  <span class="method-name">importTest</span>
+                  <a name="NewAPITest">
+                  </a> <!-- NewAPITest -->
+                  <span class="method-name">NewAPITest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +135,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/0p/716f5n213cq6l2xz0xf1swlm0000gp/T/testng-eclipse--1933482820/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/0p/716f5n213cq6l2xz0xf1swlm0000gp/T/testng-eclipse--1578283424/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +144,7 @@
 &lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.db.Regression.importTest&quot;/&gt;
+      &lt;class name=&quot;com.db.Regression.NewAPITest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,14 +186,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'importTest')
-data.setCell(0, 2, 'com.db.Regression.importTest')
-data.setCell(0, 3, 19668);
+data.setCell(0, 1, 'NewAPITest')
+data.setCell(0, 2, 'com.db.Regression.NewAPITest')
+data.setCell(0, 3, 63792);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -205,28 +205,66 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">importTest</span>
+              <span class="reporter-method-name">NewAPITest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Finding element using: id:txtEmail</span>
-                <span class="reporter-method-output">Finding element, try0 with locator:id:txtEmail</span>
-                <span class="reporter-method-output">Finding element using: id:txtPassword</span>
-                <span class="reporter-method-output">Finding element, try0 with locator:id:txtPassword</span>
-                <span class="reporter-method-output">Finding element using: id:kc-login</span>
-                <span class="reporter-method-output">Finding element, try0 with locator:id:kc-login</span>
-                <span class="reporter-method-output">Finding element using: id:btnImport</span>
-                <span class="reporter-method-output">Finding element, try0 with locator:id:btnImport</span>
-                <span class="reporter-method-output">Finding element using: id:UploadFolderFiles</span>
-                <span class="reporter-method-output">Finding element, try0 with locator:id:UploadFolderFiles</span>
-                <span class="reporter-method-output">Finding element using: id:ProjectMenu</span>
-                <span class="reporter-method-output">Finding element, try0 with locator:id:ProjectMenu</span>
-                <span class="reporter-method-output">Finding element using: id:ProjectMenu</span>
-                <span class="reporter-method-output">Finding element, try0 with locator:id:ProjectMenu</span>
-                <span class="reporter-method-output">Finding element using: id:ProjectMenu</span>
-                <span class="reporter-method-output">Finding element, try0 with locator:id:ProjectMenu</span>
-                <span class="reporter-method-output">Finding element using: id:ProjectMenu</span>
-                <span class="reporter-method-output">Finding element, try0 with locator:id:ProjectMenu</span>
-                <span class="reporter-method-output">Finding element using: xpath://a[text()='CollectionForTesting']</span>
-                <span class="reporter-method-output">Finding element, try0 with locator:xpath://a[text()='CollectionForTesting']</span>
+                <span class="reporter-method-output">Finding element using: id:btnCreateTest</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:btnCreateTest</span>
+                <span class="reporter-method-output">Finding element using: id:Create_a_basic_request</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:Create_a_basic_request</span>
+                <span class="reporter-method-output">Finding element using: id:urlText</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:urlText</span>
+                <span class="reporter-method-output">Finding element using: id:save-api</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:save-api</span>
+                <span class="reporter-method-output">Finding element using: id:apiName</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:apiName</span>
+                <span class="reporter-method-output">Finding element using: id:btnCreateTest</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:btnCreateTest</span>
+                <span class="reporter-method-output">Finding element using: id:Create_a_basic_request</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:Create_a_basic_request</span>
+                <span class="reporter-method-output">Finding element using: id:httpMethodDropdown</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:httpMethodDropdown</span>
+                <span class="reporter-method-output">Finding element using: id:urlText</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:urlText</span>
+                <span class="reporter-method-output">Finding element using: id:save-api</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:save-api</span>
+                <span class="reporter-method-output">Finding element using: id:apiName</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:apiName</span>
+                <span class="reporter-method-output">Finding element using: id:btnCreateTest</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:btnCreateTest</span>
+                <span class="reporter-method-output">Finding element using: id:Create_a_basic_request</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:Create_a_basic_request</span>
+                <span class="reporter-method-output">Finding element using: id:httpMethodDropdown</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:httpMethodDropdown</span>
+                <span class="reporter-method-output">Finding element using: id:urlText</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:urlText</span>
+                <span class="reporter-method-output">Finding element using: id:save-api</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:save-api</span>
+                <span class="reporter-method-output">Finding element using: id:apiName</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:apiName</span>
+                <span class="reporter-method-output">Finding element using: id:btnCreateTest</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:btnCreateTest</span>
+                <span class="reporter-method-output">Finding element using: id:Create_a_basic_request</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:Create_a_basic_request</span>
+                <span class="reporter-method-output">Finding element using: id:httpMethodDropdown</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:httpMethodDropdown</span>
+                <span class="reporter-method-output">Finding element using: id:urlText</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:urlText</span>
+                <span class="reporter-method-output">Finding element using: id:save-api</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:save-api</span>
+                <span class="reporter-method-output">Finding element using: id:apiName</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:apiName</span>
+                <span class="reporter-method-output">Finding element using: id:TestsMenu</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:TestsMenu</span>
+                <span class="reporter-method-output">Finding element using: id:txtSearch</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:txtSearch</span>
+                <span class="reporter-method-output">Finding element using: xpath://i[@class='http-method-tag' and text()='GET']</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:xpath://i[@class='http-method-tag' and text()='GET']</span>
+                <span class="reporter-method-output">Finding element using: id:run-api</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:id:run-api</span>
+                <span class="reporter-method-output">Finding element using: xpath://a[text()='Home']</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:xpath://a[text()='Home']</span>
+                <span class="reporter-method-output">Finding element using: xpath://span[@title='200']</span>
+                <span class="reporter-method-output">Finding element, try0 with locator:xpath://span[@title='200']</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -244,30 +282,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.db.Regression.importTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.db.Regression.NewAPITest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">cleanUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
-                <span class="method-name">setUp(org.testng.TestRunner@4612b856)</span>
-                <span class="method-start">24 ms</span>
+                <span class="method-name">setUp(org.testng.TestRunner@1d71006f)</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">5066 ms</span>
+                <span class="method-start">5041 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">importTest</span>
-                <span class="method-start">5082 ms</span>
+                <span class="method-name">NewAPITest</span>
+                <span class="method-start">5053 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">24752 ms</span>
+                <span class="method-start">68847 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">quitBrowser</span>
-                <span class="method-start">24752 ms</span>
+                <span class="method-start">68849 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

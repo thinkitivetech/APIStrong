@@ -3,15 +3,15 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.db.Regression.importTest">
+      <class name="com.db.Regression.NewAPITest">
         <methods>
           <include name="cleanUp"/>
           <include name="setUp"/>
           <include name="setUp"/>
-          <include name="importTest"/>
+          <include name="NewAPITest"/>
           <include name="quitBrowser"/>
         </methods>
-      </class> <!-- com.db.Regression.importTest -->
+      </class> <!-- com.db.Regression.NewAPITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
