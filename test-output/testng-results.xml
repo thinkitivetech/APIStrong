@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[url:https://dev.apistrong.com/]]>
+    </line>
+    <line>
+      <![CDATA[browserName:chrome]]>
+    </line>
+    <line>
+      <![CDATA[driverAgent:chromedriver]]>
+    </line>
+    <line>
+      <![CDATA[executionEnvironment:local]]>
+    </line>
+    <line>
+      <![CDATA[browserStackUserName:null]]>
+    </line>
+    <line>
+      <![CDATA[browserStackAuthKey:null]]>
+    </line>
+    <line>
+      <![CDATA[browserStackBrowserVersion:null]]>
+    </line>
+    <line>
+      <![CDATA[browserStackOSVersion:null]]>
+    </line>
+    <line>
+      <![CDATA[os:null]]>
+    </line>
+    <line>
+      <![CDATA[outputPath:output]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:btnCreateTest]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:btnCreateTest]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:Create_a_basic_request]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:Create_a_basic_request]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:urlText]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:urlText]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:save-api]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:save-api]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:apiName]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:apiName]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:btnCreateTest]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:btnCreateTest]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:Create_a_basic_request]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:Create_a_basic_request]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:httpMethodDropdown]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:httpMethodDropdown]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:urlText]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:urlText]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:save-api]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:save-api]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:apiName]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:apiName]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:btnCreateTest]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:btnCreateTest]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:Create_a_basic_request]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:Create_a_basic_request]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:httpMethodDropdown]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:httpMethodDropdown]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:urlText]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:urlText]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:save-api]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:save-api]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:apiName]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:apiName]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:btnCreateTest]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:btnCreateTest]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:Create_a_basic_request]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:Create_a_basic_request]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:httpMethodDropdown]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:httpMethodDropdown]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:urlText]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:urlText]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:save-api]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:save-api]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:apiName]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:apiName]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:TestsMenu]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:TestsMenu]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:txtSearch]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:txtSearch]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: xpath://i[@class='http-method-tag' and text()='GET']]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:xpath://i[@class='http-method-tag' and text()='GET']]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: id:run-api]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:id:run-api]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: xpath://a[text()='Home']]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:xpath://a[text()='Home']]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: xpath://span[@title='200']]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:xpath://span[@title='200']]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68841" started-at="2020-12-02T04:20:48Z" finished-at="2020-12-02T04:21:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68841" started-at="2020-12-02T04:20:48Z" finished-at="2020-12-02T04:21:57Z">
+      <class name="com.db.Regression.NewAPITest">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.db.Regression.NewAPITest@3b94d659]" name="cleanUp" is-config="true" duration-ms="9" started-at="2020-12-02T09:50:48Z" finished-at="2020-12-02T09:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.db.Regression.NewAPITest@3b94d659]" name="setUp" is-config="true" duration-ms="5025" started-at="2020-12-02T09:50:48Z" finished-at="2020-12-02T09:50:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d71006f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.db.Regression.NewAPITest@3b94d659]" name="setUp" is-config="true" duration-ms="8" started-at="2020-12-02T09:50:53Z" finished-at="2020-12-02T09:50:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[url:https://dev.apistrong.com/]]>
+            </line>
+            <line>
+              <![CDATA[browserName:chrome]]>
+            </line>
+            <line>
+              <![CDATA[driverAgent:chromedriver]]>
+            </line>
+            <line>
+              <![CDATA[executionEnvironment:local]]>
+            </line>
+            <line>
+              <![CDATA[browserStackUserName:null]]>
+            </line>
+            <line>
+              <![CDATA[browserStackAuthKey:null]]>
+            </line>
+            <line>
+              <![CDATA[browserStackBrowserVersion:null]]>
+            </line>
+            <line>
+              <![CDATA[browserStackOSVersion:null]]>
+            </line>
+            <line>
+              <![CDATA[os:null]]>
+            </line>
+            <line>
+              <![CDATA[outputPath:output]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="NewAPITest()[pri:0, instance:com.db.Regression.NewAPITest@3b94d659]" name="NewAPITest" duration-ms="63792" started-at="2020-12-02T09:50:53Z" finished-at="2020-12-02T09:51:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Finding element using: id:btnCreateTest]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:btnCreateTest]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:Create_a_basic_request]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:Create_a_basic_request]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:urlText]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:urlText]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:save-api]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:save-api]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:apiName]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:apiName]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:btnCreateTest]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:btnCreateTest]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:Create_a_basic_request]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:Create_a_basic_request]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:httpMethodDropdown]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:httpMethodDropdown]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:urlText]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:urlText]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:save-api]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:save-api]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:apiName]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:apiName]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:btnCreateTest]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:btnCreateTest]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:Create_a_basic_request]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:Create_a_basic_request]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:httpMethodDropdown]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:httpMethodDropdown]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:urlText]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:urlText]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:save-api]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:save-api]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:apiName]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:apiName]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:btnCreateTest]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:btnCreateTest]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:Create_a_basic_request]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:Create_a_basic_request]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:httpMethodDropdown]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:httpMethodDropdown]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:urlText]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:urlText]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:save-api]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:save-api]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:apiName]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:apiName]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:TestsMenu]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:TestsMenu]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:txtSearch]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:txtSearch]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: xpath://i[@class='http-method-tag' and text()='GET']]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:xpath://i[@class='http-method-tag' and text()='GET']]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: id:run-api]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:id:run-api]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: xpath://a[text()='Home']]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:xpath://a[text()='Home']]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: xpath://span[@title='200']]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:xpath://span[@title='200']]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NewAPITest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.db.Regression.NewAPITest@3b94d659]" name="quitBrowser" is-config="true" duration-ms="1" started-at="2020-12-02T09:51:57Z" finished-at="2020-12-02T09:51:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.db.Regression.NewAPITest@3b94d659]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2020-12-02T09:51:57Z" finished-at="2020-12-02T09:51:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.db.Regression.NewAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
